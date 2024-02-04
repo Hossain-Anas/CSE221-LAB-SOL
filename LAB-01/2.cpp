@@ -34,6 +34,10 @@ void bubblesort(vector<int> &v, int n)
     }
 }
 
+//if there's no swap after one pass in the inner loop that means the list/array is already sorted. this is why I used a flag
+//to check whether there's a swap or not. if there's no swap I terminated the sorting mechanism. By this adaptive mechanism We can achieve 
+//O(n) time complexity in the best case.
+
 int main()
 {
     init_code();
