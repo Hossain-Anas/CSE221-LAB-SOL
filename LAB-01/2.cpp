@@ -11,11 +11,12 @@ void init_code()
 
 void bubblesort(vector<int> &v, int n)
 {
-    int flag = 0;
+    // int flag = 0;
 
     for(int i=0; i<n-1; i++)
     {   
         // cout<<i<<endl;
+        int flag = 0; //The loop will break as soon as it detects a sorted array.
 
         for(int j=0; j<n-i-1; j++)
         {
